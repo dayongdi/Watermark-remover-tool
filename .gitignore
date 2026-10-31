@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 模型文件（单个 198~208MB，超过 GitHub 单文件 100MB 限制，用 download_models.py 拉取）
+models/
+*.onnx
+*.onnx.part*
+*.part[0-9]*
+
+# 打包产物
+build/
+dist/
+*.spec.bak
+
+# 运行产物
+test/
+_selftest.txt
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
